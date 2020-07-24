@@ -1,0 +1,22 @@
+.green{
+	color : green;
+}
+.blue{
+	color : #33A5FF;
+}
+
+/**********888 BACKGROUNDS *************/
+.bg-blue{
+	background-color: #3374FF;
+	color : white;
+	}
+
+.bg-green{
+	background-color: #3EDD81;
+	color : white;
+	border-color : #3EDD81;
+}
+.bg-white{
+	background-color: #fff;
+	color : black;
+}

